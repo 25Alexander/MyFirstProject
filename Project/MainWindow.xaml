@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="FileApp" Height="450" Width="800">
     <Grid>
-        <DataGrid x:Name="List">
+        <DataGrid x:Name="List" FontSize="19" FontWeight="Medium" Margin="10">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="DateOfCreate" Width="190"/>
                 <DataGridCheckBoxColumn Header="Done" Width="100"/>
