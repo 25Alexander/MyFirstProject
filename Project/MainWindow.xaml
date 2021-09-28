@@ -9,9 +9,9 @@
     <Grid>
         <DataGrid x:Name="List" FontSize="19" FontWeight="Medium" Margin="10">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="DateOfCreate" Width="190"/>
-                <DataGridCheckBoxColumn Header="Done" Width="100"/>
-                <DataGridTextColumn Header="List" Width="*"/>
+                <DataGridTextColumn IsReadOnly="False" Header="DateOfCreate" Width="190"/>
+                <DataGridCheckBoxColumn IsReadOnly="True" Header="Done" Width="100"/>
+                <DataGridTextColumn IsReadOnly="True" Header="List" Width="*"/>
             </DataGrid.Columns>
         </DataGrid>
     </Grid>
