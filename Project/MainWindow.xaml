@@ -5,13 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Project"
         mc:Ignorable="d"
-        Title="FileApp" Height="450" Width="800" Loaded="Window_Loaded">
+        Title="FileApp" Height="450" Width="800">
     <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="37*"/>
-            <ColumnDefinition Width="227*"/>
-        </Grid.ColumnDefinitions>
-        <DataGrid x:Name="List" FontSize="19" FontWeight="Medium" Margin="10" Grid.ColumnSpan="2">
+        <DataGrid x:Name="List" FontSize="19" FontWeight="Medium" Margin="10">
             <DataGrid.Columns>
                 <DataGridTextColumn IsReadOnly="False" Header="DateOfCreate" Width="190"/>
                 <DataGridCheckBoxColumn IsReadOnly="True" Header="Done" Width="100"/>
